@@ -1,0 +1,1 @@
+javascript:(var original = JSON.parse(window.localStorage.getItem("nyt-wordle-state"));original["lastCompletedTs"] = TIMESTAMP;window.localStorage.setItem("nyt-wordle-state", JSON.stringify(original));)
